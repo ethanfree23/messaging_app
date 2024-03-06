@@ -1,1 +1,1 @@
-# messaging_app
+# React Rails App
