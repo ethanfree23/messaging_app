@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import axios from "axios";
+import Users from "./components/users";
 
 function App() {
   return (
-    <div className="flex border border-black-3">
-      <h1 className="text-3xl font-bold underline text-blue-300">Hello World!</h1>
+    <div className="">
+      Hello World!
     </div>
   );
 }
