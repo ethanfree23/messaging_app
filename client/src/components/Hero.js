@@ -4,15 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import cowInPool1 from '../img/cowInPool1.jpg'
 // import cowInPool2 from '../img/cowInPool2.jpg'
 
-const navigation = [
-    { name: 'Home', href: '/home' },
-    { name: 'How It Works', href: '#' },
-    { name: 'Buy a Cow', href: '#' },
-    { name: 'About', href: '#' }
-]
-
 function Hero() {
-    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <div className="bg-gray-900">

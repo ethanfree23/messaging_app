@@ -23,7 +23,7 @@ const steps = [
 
 function HowItWorks() {
     return (
-        <div className="bg-slate-100 py-12">
+        <div className="py-12" style={{ backgroundColor: '#2ac1a2' }}>
             <div className="max-w-6xl mx-auto px-4">
                 <h2 className="text-3xl font-semibold text-center mb-8">How It Works</h2>
                 <div className="flex flex-wrap justify-between items-center">
@@ -31,7 +31,7 @@ function HowItWorks() {
                     {steps.map((item) => (
                         <div className="flex flex-col items-center justify-center p-10 w-full md:w-1/3 mb-8 md:mb-0">
                             <div className="text-center mb-4">
-                                <div className="w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center">
+                                <div className="w-12 h-12 rounded-full bg-green-400 flex justify-center items-center">
                                     <span className="text-white text-lg">{item.number}</span>
                                 </div>
                             </div>

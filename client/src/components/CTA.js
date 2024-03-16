@@ -1,12 +1,15 @@
 import React from 'react';
+import Cloud from '../img/clouds.jpg'
 
 function CTA() {
-    return (
-      <div className="bg-white p-8">
+  return (
+    <div className="bg-white p-8">
+      <div className="relative isolate overflow-hidden">
+        <img src={Cloud} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover" />
         <div className="ring-gray-300 ring-2 shadow-lg px-6 py-24 sm:px-6 sm:py-12 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto max-w-2xl text-center backdrop-blur-lg">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              It has never tasted better to be<br/>a true Texan.
+              It has never tasted better to be<br />a true Texan.
               <br />
               Order your beef today.
             </h2>
@@ -27,7 +30,8 @@ function CTA() {
           </div>
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}
+
 export default CTA;
