@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Header from '../../src/components/Header';
 import Hero from '../../src/components/Hero';
 import Features from '../../src/components/Features';
 import HowItWorks from '../../src/components/HowItWorks';
@@ -13,6 +14,7 @@ function HomePage() {
   return (
     <div>
       {/* <Users /> */}
+      <Header />
       <Hero />
       <Features />
       <HowItWorks />

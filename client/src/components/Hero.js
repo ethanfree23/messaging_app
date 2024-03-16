@@ -2,23 +2,23 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import cowInPool1 from '../img/cowInPool1.jpg'
-import cowInPool2 from '../img/cowInPool2.jpg'
-import beef2 from '../img/beef2.jpg'
+// import cowInPool2 from '../img/cowInPool2.jpg'
+// import beef2 from '../img/beef2.jpg'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Home', href: '/home' },
+    { name: 'How It Works', href: '#' },
+    { name: 'Buy a Cow', href: '#' },
+    { name: 'About', href: '#' }
 ]
 
 function Hero() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <div className="bg-gray-900">
 
-            <header className="absolute inset-x-0 top-0 z-50">
+            {/* <header className="absolute inset-x-0 top-0 z-50">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
                         <a href="#" className="-m-1.5 p-1.5">
@@ -99,7 +99,7 @@ function Hero() {
                         </div>
                     </Dialog.Panel>
                 </Dialog>
-            </header>
+            </header> */}
 
             <div className="relative isolate overflow-hidden pt-14">
                 <img
