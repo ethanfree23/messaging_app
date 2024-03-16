@@ -31,7 +31,7 @@ function Testimonials() {
               </svg>
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <p>
-                  Cow Pool is a great service. I love having Ethan cumming over to provide me with such great meat! It tastes great, feels yummy when its in me, and I love supporting local :)
+                  Cow Pool is a great service. I love having Ethan cum over to provide me with such great meat! It tastes yummy, feels great inside me, and I love supporting local :)
                 </p>
               </blockquote>
               <figcaption className="mt-8 text-base">
