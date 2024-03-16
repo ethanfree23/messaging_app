@@ -1,27 +1,17 @@
 const navigation = {
     solutions: [
-        { name: 'Marketing', href: '#' },
-        { name: 'Analytics', href: '#' },
-        { name: 'Commerce', href: '#' },
-        { name: 'Insights', href: '#' },
+        { name: 'Marketing', href: '#' }
     ],
     support: [
-        { name: 'Pricing', href: '#' },
-        { name: 'Documentation', href: '#' },
-        { name: 'Guides', href: '#' },
-        { name: 'API Status', href: '#' },
+        { name: 'Pricing', href: '#' }
     ],
     company: [
         { name: 'About', href: '#' },
-        { name: 'Blog', href: '#' },
-        { name: 'Jobs', href: '#' },
-        { name: 'Press', href: '#' },
-        { name: 'Partners', href: '#' },
+        { name: 'Partners', href: '#' }
     ],
     legal: [
-        { name: 'Claim', href: '#' },
         { name: 'Privacy', href: '#' },
-        { name: 'Terms', href: '#' },
+        { name: 'Terms', href: '#' }
     ],
     social: [
         {
@@ -103,7 +93,7 @@ function Footer() {
                             alt="Company name"
                         />
                         <p className="text-sm leading-6 text-gray-600">
-                            Making the world a better place through constructing elegant hierarchies.
+                            Making the world a better place through directly supporting ranchers.
                         </p>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
