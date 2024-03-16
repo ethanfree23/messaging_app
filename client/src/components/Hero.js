@@ -125,7 +125,7 @@ function Hero() {
                             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-black ring-1 ring-white/10 hover:ring-white/20"
                                 style={{ WebkitTextStroke: '1px black' }}>
                                 Announcing our next round of purchases.{' '}
-                                <a href="#" className="font-extrabold text-white text-shadow"
+                                <a href="#" className="font-extrabold text-white"
                                     style={{ WebkitTextStroke: '0.25px black', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>
                                     <span className="absolute inset-0" aria-hidden="true" />
                                     Sign up <span aria-hidden="true">&rarr;</span>
@@ -133,7 +133,7 @@ function Hero() {
                             </div>
                         </div>
                         <div className="text-center">
-                            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-shadow" style={{ WebkitTextStroke: '1px black' }}>
+                            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl" style={{ WebkitTextStroke: '1px black' }}>
                                 We’re changing the way people order steaks
                             </h1>
                             <p className="mt-6 text-lg leading-8 text-black" style={{ WebkitTextStroke: '0.55px black' }}>
@@ -146,7 +146,8 @@ function Hero() {
                                 >
                                     Get started
                                 </a>
-                                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                                <a href="#" className="text-sm font-semibold leading-6 text-white font-extrabold text-white"
+                                    style={{ WebkitTextStroke: '0.25px black', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>
                                     Learn more <span aria-hidden="true">→</span>
                                 </a>
                             </div>
