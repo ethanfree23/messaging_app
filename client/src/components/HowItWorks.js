@@ -1,41 +1,44 @@
 import React from 'react';
 
+const steps = [
+    {
+        id: 1,
+        number: "1",
+        title: "Create an Account",
+        description: "Access discounts on high quality, local beef, and share with friends for more discounts."
+    },
+    {
+        id: 2,
+        number: "2",
+        title: "Pay for half or whole cow",
+        description: "Orders placed by end of month, every month. Split a cow or go all the way."
+    },
+    {
+        id: 3,
+        number: "3",
+        title: "Enjoy",
+        description: "Your meat will be delivered directly to your front door. We also provide storage options."
+    },
+]
+
 function HowItWorks() {
     return (
         <div className="bg-slate-100 py-12">
             <div className="max-w-6xl mx-auto px-4">
-                <h2 className="text-3xl font-semibold text-center mb-8">How it Works</h2>
+                <h2 className="text-3xl font-semibold text-center mb-8">How It Works</h2>
                 <div className="flex flex-wrap justify-between items-center">
-                    {/* Step 1 */}
-                    <div className="flex flex-col items-center justify-center p-10 w-full md:w-1/3 mb-8 md:mb-0">
-                        <div className="text-center mb-4">
-                            <div className="w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center">
-                                <span className="text-white text-lg">1</span>
+                    {/* { Steps } */}
+                    {steps.map((item) => (
+                        <div className="flex flex-col items-center justify-center p-10 w-full md:w-1/3 mb-8 md:mb-0">
+                            <div className="text-center mb-4">
+                                <div className="w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center">
+                                    <span className="text-white text-lg">{item.number}</span>
+                                </div>
                             </div>
+                            <div className="text-center mb-4">{item.title}</div>
+                            <div className="text-sm text-center text-white-600">{item.description}</div>
                         </div>
-                        <div className="text-center mb-4">Setup & Onboard</div>
-                        <div className="text-sm text-white-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    </div>
-                    {/* Step 2 */}
-                    <div className="flex flex-col items-center justify-center p-10 w-full md:w-1/3 mb-8 md:mb-0">
-                        <div className="text-center mb-4">
-                            <div className="w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center">
-                                <span className="text-white text-lg">2</span>
-                            </div>
-                        </div>
-                        <div className="text-center mb-4">Handle Orders</div>
-                        <div className="text-sm text-white-600">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    </div>
-                    {/* Step 3 */}
-                    <div className="flex flex-col items-center justify-center p-10 w-full md:w-1/3">
-                        <div className="text-center mb-4">
-                            <div className="w-12 h-12 rounded-full bg-blue-500 flex justify-center items-center">
-                                <span className="text-white text-lg">3</span>
-                            </div>
-                        </div>
-                        <div className="text-center mb-4">Analyze Data</div>
-                        <div className="text-sm text-white-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

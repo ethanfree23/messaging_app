@@ -6,13 +6,12 @@ function CTA() {
         <div className="shadow-lg px-6 py-24 sm:px-6 sm:py-12 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Boost your productivity.
+              It has never tasted better to be<br/>a true Texan.
               <br />
-              Start using our app today.
+              Order your beef today.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-              commodo do ea.
+              Get started right here. Simply create an account, select quantity, and pay. Within a month you will have your first round of cuts delviered.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

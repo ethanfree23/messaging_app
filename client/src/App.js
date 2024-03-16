@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 
-import Header from './components/Header.js'
+// import Header from './components/Header.js'
 import HomePage from './pages/HomePage.js'
 import AboutPage from './pages/AboutPage.js'
 import ContactPage from './pages/ContactPage.js'
@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/home" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
