@@ -3,7 +3,7 @@ import React from 'react';
 function CTA() {
     return (
       <div className="bg-white p-8">
-        <div className="shadow-lg px-6 py-24 sm:px-6 sm:py-12 lg:px-8">
+        <div className="ring-gray-300 ring-2 shadow-lg px-6 py-24 sm:px-6 sm:py-12 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               It has never tasted better to be<br/>a true Texan.

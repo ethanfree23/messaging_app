@@ -1,3 +1,5 @@
+import beef1 from '../img/beef1.png'
+
 function Features() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
@@ -8,7 +10,7 @@ function Features() {
               <h2 className="text-base font-semibold leading-7 text-indigo-600">Get more</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Support Local Ranchers.<br /> Save Money.<br /> Eat Healthier.</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Instead of going to the supermarket and purchasing some meat from an industrial farm in another state, spend your money on high quality beef, produced by Ranchers in the Huffman area. Now you can enjoy delicious meat, at a fraction of the cost, knowing you are helping your community. 
+                Instead of going to the supermarket and purchasing some meat from an industrial farm in another state, spend your money on high quality beef, produced by Ranchers in the Huffman area. Now you can enjoy delicious meat, at a fraction of the cost, knowing you are helping your community.
               </p>
               <div className="mt-8">
                 <a
@@ -38,7 +40,7 @@ function Features() {
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src={beef1}
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
             width={2432}

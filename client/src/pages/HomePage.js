@@ -16,8 +16,8 @@ function HomePage() {
       <Hero />
       <Features />
       <HowItWorks />
-      <FAQ />
       <CTA />
+      <FAQ />
       <Testimonials />
       <ContactSection />
       {/* Footer */}
