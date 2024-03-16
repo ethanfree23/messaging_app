@@ -8,7 +8,7 @@ import Testimonials from '../../src/components/Testimonials';
 import CTA from '../../src/components/CTA';
 import FAQ from '../../src/components/FAQ';
 import ContactSection from '../../src/components/ContactSection';
-import Users from '../../src/components/Users';
+// import Users from '../../src/components/Users';
 
 function HomePage() {
   return (
