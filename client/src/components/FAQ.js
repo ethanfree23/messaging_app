@@ -3,54 +3,24 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
     {
-        question: "What size company is best for this application?",
+        question: "Do I need to pay in full before my order is placed?",
         answer:
-            "We work with a wide variety of OEMs from startups putting their first handful of machines into the field to established industry leaders with thousands of machines in their install base.",
+            "Yes, we need to receive the money before the end of the month for your order to be placed. If you pay half the total, we can have your name of the list to ensure a spot, given you pay the rest on time.",
     },
     {
-        question: "What if we already have a store on our website?",
+        question: "I want to do this, but I do not have the freezer space. Do you have a solution?",
         answer:
-            "We aren’t afraid of a little competition! Your website store probably did not completely eliminate orders by phone and email, HubOEM is intended to work in concert with your other sales channels to drive after sales revenue growth.",
+            "Yes, Cow Pool has the abiltiy to store your ",
     },
     {
-        question: "Our machines are all custom built, will this solution still work for us?",
+        question: "If I purchase more than one cow, is there an additional discount?",
         answer:
-            "Yes! This is exactly the problem HubOEM was designed to solve. Parts lists and manuals can be tracked at the machine specific/serial number level and tailored to each individual install. In fact, we now offer an integration that allows your to export your assembly drawings right from SolidWorks or other design software and we can pull all your individual parts directly into our system.",
+            "As for now, we do not offer discounts for purchasing more than one whole cow. However, we do offer a discount if you refer someone who ends up purchasing from us.",
     },
     {
-        question: "We like to be the main point of contact with our customers. Will this application facilitate direct communication?",
+        question: "Do you have other types of meat?",
         answer:
-            "If you are already using email and social media to interact with your customers, then this is really just another tool in that toolbox. Your machine’s view will still show your logo and all POs and messages go right to you.",
-    },
-    {
-        question: "We already have a CRM, how is this any different?",
-        answer:
-            "HubOEM is NOT a CRM. It is a customer service platform to better support your existing install base. In fact, we offer easy integration with many of the leading CRM providers to easily and seamlessly manage your customer data.",
-    },
-    {
-        question: "We sell plenty of parts already, why should we change what works?",
-        answer:
-            "Horses could get you from one place to another, but cars made it faster, easier and more reliable. HubOEM clients consistently sell more parts with less effort on the part of their aftersale team.",
-    },
-    {
-        question: "Our customers are large public companies. How do I know they will be open to using your product?",
-        answer:
-            "HubOEM is already working with large consumer-facing brands.",
-    },
-    {
-        question: "Our machines have been in the field forever?",
-        answer:
-            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
-    },
-    {
-        question: "Our machines do not require any wear part replacements. How does HubOEM add value?",
-        answer:
-            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
-    },
-    {
-        question: "Does HubOEM have API capabilities?",
-        answer:
-            "Yes, HubOEM has API integrations for easy connection to many common enterprise applications.",
+            'Currently, the pool is strictly "Cows only". Soon we will offer poultry.',
     },
 ]
 
