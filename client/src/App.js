@@ -11,23 +11,23 @@ import { BoltIcon, CalendarDaysIcon, UsersIcon } from '@heroicons/react/24/outli
 
 const primaryFeatures = [
   {
-    name: 'Server monitoring',
+    name: 'Piping',
     description:
-      'Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.',
+      'Tee with pipe yo hoe in all 3 holes. bich wont know what hit dat bih.',
     href: '#',
     icon: BoltIcon,
   },
   {
-    name: 'Collaborate',
+    name: 'Wood',
     description:
-      'Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.',
+      'Imagine wood smacking yo hoe across her mouth, wiping that scared look away only to be replaced with shock and raw honrniness.',
     href: '#',
     icon: UsersIcon,
   },
   {
-    name: 'Task scheduling',
+    name: 'Cocking',
     description:
-      'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
+      'He goin put that cocking up in her azz and fuckthta shit til she bust out ya feel me?',
     href: '#',
     icon: CalendarDaysIcon,
   },
@@ -212,20 +212,15 @@ function App() {
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
                   <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-                    Latest updates
-                  </span>
-                  <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
-                    <span>Just shipped v1.0</span>
-                    <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
+                    Latest projects
                   </span>
                 </a>
               </div>
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Deploy to the cloud with confidence
+                On Call Handy Man
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Whether you need work in your kitchen, bathroom, garage, patio, or any other room in your house, Theran is your go to expert servicing the Great Conroe area.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
@@ -235,18 +230,18 @@ function App() {
                   Get started
                 </a>
                 <a href="#" className="text-sm font-semibold leading-6 text-white">
-                  Live demo <span aria-hidden="true">→</span>
+                  Contact <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
             <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
               <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                 <img
-                  src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                  src="https://images.pexels.com/photos/6969870/pexels-photo-6969870.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="App screenshot"
                   width={2432}
                   height={1442}
-                  className="w-[76rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+                  className="w-[56rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
                 />
               </div>
             </div>
@@ -300,13 +295,12 @@ function App() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-400">Deploy faster</h2>
+            <h2 className="text-base font-semibold leading-7 text-indigo-400">Get it done with Tee</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Everything you need to deploy your app
+              Everything you need to handle your home projects
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-              accusamus quisquam.
+              With over 25 years experience in construction, and with a deep network of suppliers in the area, Tee knows his business better than anyone.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
