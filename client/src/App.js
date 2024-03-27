@@ -249,7 +249,7 @@ function App() {
         </div>
 
         {/* Logo cloud */}
-        <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-16 lg:px-8">
+        {/* <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-16 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-white">
             The world’s most innovative companies use our app
           </h2>
@@ -290,7 +290,7 @@ function App() {
               height={48}
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
